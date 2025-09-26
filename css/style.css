@@ -1,0 +1,39 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+main {
+    flex: 1;
+}
+
+.card {
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+footer p {
+    margin-bottom: 0;
+}
+
+.bg-navy {
+    background-color: #001f3f;
+}
+
+.btn-primary {
+    background-color: #001f3f;
+    border-color: #001f3f;
+}
+
+.btn-primary:hover {
+    background-color: #00142b;
+    border-color: #00142b;
+}
